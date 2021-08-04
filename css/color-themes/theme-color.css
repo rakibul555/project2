@@ -1,0 +1,62 @@
+/* -------------------------------------------------------------------------- */
+/* Theme color */
+/* -------------------------------------------------------------------------- */
+
+.header-top-bg{
+    background-color: #282828;
+}
+
+.header-top-text{
+    color: rgb(171 171 171);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------
+Theme default color and background color
+--------------------------------------------- */
+/* It's for background color*/
+.bg-orange{
+    background-color: #FFA500;
+}
+
+.bg-sweet{
+    background-color: #FF5722;
+}
+
+.bg-whait{
+    background-color: #FF5722;
+}
+.bg-dark{
+    background-color: #1F1F1F !important;
+}
+
+
+
+
+/* It's for text color*/
+.text-sweet {
+    color: rgb(255 185 163);
+}
+
+.text-dark {
+    color: rgba(195, 195, 195, 50%) !important;
+    transition: all .3s ease-in-out;
+}
+
+

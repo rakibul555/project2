@@ -1,0 +1,479 @@
+/*! HTML5 Boilerplate version 1.0.0 | MIT License | It's free and comfort usable */
+
+/* reset.css 1.0.0 | RAKIBUL ISLAM
+/*
+ *It's default CSS use in website and cross-browser styling. This code collects in
+  HTML5 and CSS3 this class flowing and create a website in a simple time!
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+
+   html,body {
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+    color: #222;
+    font-weight: 400;
+    line-height: 1.7em;
+    vertical-align: baseline;
+    width: 100%;
+    height: 100%;
+    font: inherit;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+
+/* ==========================================================================
+    transiton for crossing browser
+   ========================================================================== */
+   transition: all .3s ease-in-out;
+   -webkit-transition: all .3s ease-in-out;
+   -moz-transition: all .3s ease-in-out;
+   -o-transition: all .3s ease-in-out;
+   -ms-transition: all .3s ease-in-out;
+  }
+
+
+
+/*
+ * div default margin and padding none 
+ */
+div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Container */
+/* -------------------------------------------------------------------------- */
+.content{
+  width: 960px;
+  height: auto;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/*
+ * Remove the margin in all browsers.
+ */
+
+ * {
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+/*
+* Customize the background color to match your design.
+*/
+ 
+ ::-moz-selection {
+   background: #b3d4fc;
+   text-shadow: none;
+ }
+
+
+/*
+/* a tag default design
+*/
+
+a{
+    text-decoration: none !important;
+    cursor: pointer;
+    color: #FF5722;
+}
+
+/*
+/* (h1-h6) tag default design
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-size: normal;
+    position: relative;
+    margin: 0;
+    background: none;
+    line-height: 1.7em;
+    font-family: 'Lora', serif;
+}
+
+
+/*
+/* p tag default design
+*/
+
+p {
+    position: relative;
+    line-height: 1.7em;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+/* ul li tag default design
+*/
+
+ul,
+li {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*
+ * Remove default fieldset styles.
+ */
+
+ fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+/*
+ * images style display and max width
+ * remove iamges default widht
+ */
+
+  img {
+    display: inline-block;
+    max-width: 100%;
+    max-height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+/* ==========================================================================
+* ::placeholder catch
+* input box catch and simple color and modify
+ ========================================================================== */
+::-webkit-input-placeholder { /* Edge */
+    color: #ddd;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #ddd;
+  }
+  
+  ::placeholder {
+    color: #ddd;
+  }
+
+  
+/**
+ * input box outline and focus none
+ */
+  textarea:focus, input:focus{
+    outline: none;
+}
+
+/**
+ * input box focus
+ */
+input[type=email]:focus,
+input[type=number]:focus,
+input[type=password]:focus,
+input[type=text]:focus {
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+
+  textarea:focus, input:focus{
+    outline: none;
+}
+
+*:focus {
+    outline: none;
+}
+
+input:focus {
+    outline:none;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=number] {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+
+/**
+ * simple style in btn class
+ */
+
+.btn{
+    background: #FF5722;
+    color: #fff;
+    border-radius: 0px;
+    padding: 6px 17px;
+}
+
+.btn-outline{
+  border: 1px solid #000 !important;
+  padding: 6px 17px;
+  border-radius: 0px;
+  color: #000;
+  background: none;
+}
+
+.btn-outline:focus {
+  outline: none;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+/* ==========================================================================
+* all text style apply in webste
+* t-right t-left t-center t-uppercase t-lowercase t-capitalize
+ ========================================================================== */
+
+.tr{
+    text-align: right !important;
+}
+.tl{
+    text-align: left !important;
+}
+.tc{
+    text-align: center !important;
+}
+.tu{
+    text-transform: uppercase !important;
+}
+
+.tlow{
+    text-transform: lowercase !important;
+}
+.tcap{
+    text-transform: capitalize !important;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/* section padding */
+/* -------------------------------------------------------------------------- */
+.sp-1{
+  padding: 100px !important;
+}
+.sp-2{
+  padding: 50px !important;
+}
+
+.pt-1{
+  padding-top: 100px !important;
+}
+
+.pt-2{
+  padding-top: 50px !important;
+}
+
+.pb-1{
+  padding-bottom: 100px !important;
+}
+.pb-2{
+  padding-bottom: 50px !important;
+}
+/* -------------------------------------------------------------------------- */
+/* Section margin */
+/* -------------------------------------------------------------------------- */
+.sm-1{
+  margin: 100px !important;
+}
+.sm-2{
+  margin: 50px !important;
+}
+.mt-1{
+  margin-top: 100px !important;
+}
+.mt-2{
+  margin-top: 50px !important;
+}
+.mb-1{
+  margin-bottom: 100px !important;
+}
+
+.mb-2{
+  margin-bottom: 50px !important;
+}
+/**
+ * Clear fix use of two div as both
+ */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/**
+ * Fix class
+ */
+.fix{
+    overflow: hidden;
+    display: inline-block;
+}
+
+
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+ [type="number"]::-webkit-inner-spin-button,
+ [type="number"]::-webkit-outer-spin-button {
+   height: auto;
+ }
+ 
+ /**
+  * 1. Correct the odd appearance in Chrome and Safari.
+  * 2. Correct the outline style in Safari.
+  */
+ 
+ [type="search"] {
+   -webkit-appearance: textfield; /* 1 */
+   outline-offset: -2px; /* 2 */
+ }
+ 
+ /**
+  * Remove the inner padding in Chrome and Safari on macOS.
+  */
+ 
+ [type="search"]::-webkit-search-decoration {
+   -webkit-appearance: none;
+ }
+ 
+ /**
+  * 1. Correct the inability to style clickable types in iOS and Safari.
+  * 2. Change font properties to `inherit` in Safari.
+  */
+ 
+ ::-webkit-file-upload-button {
+   -webkit-appearance: button; /* 1 */
+   font: inherit; /* 2 */
+ }
+
+
+ /**
+ * Any class div section even any website hide this class use
+ */
+.hide{
+    display: none !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/* hamburger menu style */
+/* -------------------------------------------------------------------------- */
+
+/* Menu structure  */
+/* <div class="hamburger-menu">
+/* <div class="hamburger-menu-row"></div>
+/* </div> 
+*/
+
+
+/* hamburger menu style */
+.hamburger-menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  z-index: 1100;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+
+
+.hamburger-menu-row {
+  position: relative;
+  display: flex;
+  width: 30px;
+  height: 3px;
+  background: #DD4644;
+  border-radius: 5px;
+  box-shadow: 0px 1px 1px rgba(255, 101, 47, .2);
+  align-items: center;
+  justify-content: center;
+  transition: all .5s ease-in-out;
+}
+
+.hamburger-menu-row::before,
+.hamburger-menu-row::after{
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background: #DD4644;
+  border-radius: 5px;
+  box-shadow: 0px 1px 1px rgba(255, 101, 47, .2);
+  align-items: center;
+  justify-content: center;
+  transition: all .5s ease-in-out;
+}
+.hamburger-menu-row::before{
+  transform: translateY(8px);
+  transition: all .5s ease-in-out;
+}
+.hamburger-menu-row::after{
+  transform: translateY(-8px);
+  transition: all .5s ease-in-out;
+}
+
+/* animation system */
+.hamburger-menu.collapseMenu .hamburger-menu-row{
+  transform: translateX(-50px);
+  background: transparent;
+  box-shadow: none;
+}
+.hamburger-menu.collapseMenu .hamburger-menu-row::before{
+  transform: rotate(45deg) translate(35px, -35px);
+}
+
+.hamburger-menu.collapseMenu .hamburger-menu-row::after{
+  transform: rotate(-45deg) translate(35px, 35px);
+}
+/* ===================================0END0==================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
